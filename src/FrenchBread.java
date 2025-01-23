@@ -1,4 +1,2 @@
-package PACKAGE_NAME;
-
-public class FrenchBread {
+public class FrenchBread extends Bread {
 }
