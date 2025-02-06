@@ -116,7 +116,7 @@ public class Bread {
     public boolean Baked(boolean isBaked) {
         this.isBaked = isBaked;
         if (this.isBaked) {
-            System.out.println(breadName + " is Baked");
+            System.out.println("Cant bake "+breadName + " is Baked");
             return true;
 
         } else {

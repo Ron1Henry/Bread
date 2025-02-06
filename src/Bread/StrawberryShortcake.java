@@ -37,6 +37,6 @@ public class StrawberryShortcake extends Bread {
     @Override
     public String toString(){
 
-        return String.format("Ingredients\n %d Strawberries \n %d cups of milk \n %d teaspoons of vanilla \n" + super.toString(),strawberry,milk,vanilla);
+        return String.format("Ingredients\n %d Strawberries \n %d cups of milk \n %d teaspoons of vanilla \n " + super.toString(),strawberry,milk,vanilla);
     }
 }
